@@ -1,0 +1,15 @@
+galaxy_info:
+  role_name: inventory-builder
+  author:  Dominik Lenoch
+  description: |
+    Ansible role which create inventory file from in-memory inventory.
+
+    Do you have any playbook which deploy instances in to OpenStack, AWS, GCP? Or do you have any "dynamic inventory" as a playbook, which use module add_host? Will be potentially cool to have it store somewhere, right?..
+
+  license: license (Apache)
+
+  min_ansible_version: 2.4
+
+  galaxy_tags:
+    - inventory
+    - in-memory

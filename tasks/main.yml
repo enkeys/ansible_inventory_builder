@@ -1,0 +1,5 @@
+---
+- name: Add host to file inventory ini
+  local_action: template src=inventory.ini.j2 dest="{{ inventory_file }}"
+  when: 
+    - inventory_format == 'ini'
